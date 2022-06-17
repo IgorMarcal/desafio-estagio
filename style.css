@@ -1,0 +1,45 @@
+.form-control[readonly] {
+    background-color: white;
+}
+
+label {
+    display: block;
+}
+
+.row {
+    margin-top: 20px;
+}
+
+.btn-default {
+    background-color: white;
+    border-color: #cccccc;
+    margin-bottom: 4px;
+}
+
+.card {
+    display: none;
+}
+
+.btn-remove {
+    display: inline-block
+}
+
+i.fa.fa-trash-o {
+    font-size: 20px;
+}
+
+i.fa.fa-trash-o:hover {
+    cursor: pointer;
+}
+
+.form-control {
+    width: 92%;
+    display: inline-block;
+}
+
+.form-control,
+.btn-default:focus {
+    border-color: #cccccc;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
